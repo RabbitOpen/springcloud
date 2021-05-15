@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-client
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+#      discovery:
+#        root: /ns2
+
+
+server:
+  port: 8081

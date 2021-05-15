@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: user-server
+  profiles:
+    active: dev
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
+      #服务发布在命名空间[ns1]下
+#      discovery:
+#        root: /ns1
+

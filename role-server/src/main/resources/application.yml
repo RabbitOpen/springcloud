@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+
+
+spring:
+  application:
+    name: role-server
+  profiles:
+    active: dev
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
